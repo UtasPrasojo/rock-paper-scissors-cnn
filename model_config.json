@@ -1,0 +1,15 @@
+{
+  "img_size": [
+    224,
+    224
+  ],
+  "num_classes": 3,
+  "best_hyperparameters": {
+    "dense_units": 256,
+    "dropout": 0.4,
+    "batch_norm": false,
+    "learning_rate": 0.001,
+    "optimizer": "adam"
+  },
+  "test_accuracy": 1.0
+}
