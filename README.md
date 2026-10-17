@@ -6,6 +6,18 @@ Aplikasi web sederhana untuk Tugas Kelompok 2 mata kuliah Artificial Intelligenc
 - Halaman menampilkan gambar, kelas prediksi, confidence, dan bar probabilitas ketiga kelas
 - Jika confidence di bawah 70%, muncul peringatan bahwa model kurang yakin
 
+## Screenshot
+
+Halaman awal:
+
+![Halaman awal](screenshots/halaman-awal.png)
+
+Hasil prediksi untuk gambar contoh di `samples/`:
+
+| Rock | Paper | Scissors |
+|---|---|---|
+| ![Prediksi rock](screenshots/prediksi-rock.png) | ![Prediksi paper](screenshots/prediksi-paper.png) | ![Prediksi scissors](screenshots/prediksi-scissors.png) |
+
 ## Isi repo
 
 | File | Isi |
@@ -15,6 +27,7 @@ Aplikasi web sederhana untuk Tugas Kelompok 2 mata kuliah Artificial Intelligenc
 | `model_cnn.keras` | Model terlatih (normalisasi piksel sudah di dalam model) |
 | `class_names.json`, `model_config.json` | Urutan label dan ukuran input |
 | `samples/` | Contoh gambar untuk mencoba aplikasi |
+| `screenshots/` | Screenshot aplikasi untuk README |
 | `test_app.py` | Tes prediksi dan tes aplikasi |
 
 ## Instalasi
